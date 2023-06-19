@@ -12,8 +12,8 @@ provider "coxedge" {
   key = var.coxedge_api_key
 }
 
-data "coxedge_organizations" "orgs" {
-}
+# data "coxedge_organizations" "orgs" {
+# }
 
 resource "coxedge_environment" "demo_env" {
   name                  = "terraform-test"
